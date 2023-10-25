@@ -4,7 +4,7 @@ const qs = require ('querystring')
 const app = express()
 const port = 3000
 
-const template = require('/tem.js')
+const template = require('/app/tem.js')
 
 app.get('/', (req,res)=>{
     // const q = req.query
